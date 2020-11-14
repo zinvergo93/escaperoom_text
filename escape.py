@@ -149,6 +149,9 @@ def new_game():
                 elif continue_game.lower() == "n":
                     print("Better luck next time!")
                     run_game = False
+
+            else:
+                print("Please type 'y' or 'n'.")
     elif startgame.lower() == "no":
         print("Perhaps next time...")
         run_game = False
